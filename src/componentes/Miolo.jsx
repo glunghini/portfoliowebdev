@@ -15,9 +15,9 @@ const Miolo = () => {
         <div className='bg-gradient-to-r from-indigo-500 via-purple-300 to-pink-300 bg-opacity-75 text-black content w-2/3 mx-auto p-4 rounded-b-md'>
             <h1 className='font-bold mt-10 text-5xl text-center'>Me encontre em</h1>
             <div className='flex mb-10 '>
-              <img src="/../public/imggithub.png" alt="" className='w-1/4 mx-auto mt-10'/>
-              <img src="/../public/imginsta.png" alt="" className='w-1/4 mx-auto mt-10'/>
-              <img src="/../public/imglinkedin.png" alt="" className='w-1/4 mx-auto mt-10'/>
+              <img src="/imggithub.png" alt="GitHub Logo" className='w-1/4 mx-auto mt-10'/>
+              <img src="/imginsta.png" alt="Instagram Logo" className='w-1/4 mx-auto mt-10'/>
+              <img src="/imglinkedin.png" alt="LinkedIn Logo" className='w-1/4 mx-auto mt-10'/>
             </div>
         </div>
       </section>
