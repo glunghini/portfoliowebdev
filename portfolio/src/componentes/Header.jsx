@@ -10,7 +10,7 @@ const Header = () => {
                         <li>
                             <a href="#" className="hover:text-blue-500 transition duration-200">Projetos</a>
                         </li>
-                        <li>
+                        <li> 
                             <a href="#" className="hover:text-blue-500 transition duration-200">Contato</a>
                         </li>
                     </ul>
