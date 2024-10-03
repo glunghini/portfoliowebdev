@@ -14,15 +14,15 @@ const Miolo = () => {
             <section className='flex justify-center mb-20'>
                 <div className='bg-gradient-to-r from-indigo-500 via-purple-300 to-pink-300 bg-opacity-75 text-black content w-2/3 mx-auto p-4 rounded-b-md'>
                     <h1 className='font-bold mt-10 text-5xl text-center'>Me encontre em</h1>
-                    <div className='flex mb-10 justify-center space-x-8'>
+                    <div className='flex mb-10 justify-around space-x-8'>
                         <a href="https://github.com/glunghini" target="_blank" rel="noopener noreferrer">
-                            <img src="/imggithub.png" alt="GitHub Logo" className='h-56 mt-10' />
+                            <img src="/imggithub.png" alt="GitHub Logo" className='h-56 mt-10 mx-auto' />
                         </a>
                         <a href="https://www.instagram.com/guilunghini/" target="_blank" rel="noopener noreferrer">
-                            <img src="/imginsta.png" alt="Instagram Logo" className='h-56 mt-10' />
+                            <img src="/imginsta.png" alt="Instagram Logo" className='h-56 mt-10 mx-auto' />
                         </a>
                         <a href="https://br.linkedin.com/in/guilherme-lunghini-teixeira-a540a02b3" target="_blank" rel="noopener noreferrer">
-                            <img src="/imglinkedin.png" alt="LinkedIn Logo" className='h-56 mt-10' />
+                            <img src="/imglinkedin.png" alt="LinkedIn Logo" className='h-56 mt-10 mx-auto' />
                         </a>
                     </div>
                 </div>
