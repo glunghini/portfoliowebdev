@@ -16,5 +16,3 @@ Este é o portfólio pessoal de Guilherme Lunghini, projetado para mostrar proje
 - **React Router DOM**: Para gerenciar rotas e navegação entre páginas.
 - **Tailwind CSS**: Framework CSS para estilos rápidos e responsivos.
 - **React Icons**: Para incluir ícones em diversas partes do site.
-- **Formik**: Para gerenciamento de formulários e validação.
-- **Yup**: Para validação de esquemas de dados, usado em conjunto com Formik para garantir que o email esteja no formato correto.
