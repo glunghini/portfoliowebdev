@@ -6,18 +6,18 @@ const Contato = () => {
     const [message, setMessage] = useState('');
 
     const handleSubmit = (e) => {
-        e.preventDefault(); // Impede o comportamento padrão de recarregar a página
+        e.preventDefault();
         console.log("Nome: ", name);
         console.log("Email: ", email);
         console.log("Mensagem: ", message);
     };
 
     return (
-        <div className="flex justify-center items-center h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-10">
-            <div className="bg-white bg-opacity-75 p-10 rounded-lg shadow-lg w-full max-w-md">
-                <h1 className="text-3xl font-bold mb-6 text-center text-indigo-600">Contato</h1>
+        <div className="flex justify-center items-center p-10 mt-10">
+            <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-10 rounded-lg shadow-lg w-full max-w-md">
+                <h1 className="text-3xl font-bold mb-6 text-center text-white">Contato</h1>
 
-                <form className="space-y-6" onSubmit={handleSubmit}>
+                <form className="space-y-6 bg-white bg-opacity-75 p-8 rounded-lg" onSubmit={handleSubmit}>
                     <div>
                         <label className="block text-lg font-medium text-gray-700">Nome</label>
                         <input

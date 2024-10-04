@@ -4,6 +4,7 @@ import Miolo from './componentes/Miolo'
 import Footer from './componentes/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Contato from './componentes/Contato'
+import Projetos from './componentes/Projetos'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path = '/Projetos' element = {
           <>
           <Header/>
+          <Projetos/>
           <Footer/>
           </>
         }/>
