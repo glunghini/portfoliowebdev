@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-black p-6 w-full shadow-2xl">
+        <footer className="bg-gradient-to-r from-indigo-500 via-purple-400 to-pink-500 text-black p-6 w-full shadow-2xl">
             <div className="flex justify-between items-center h-full mx-auto w-3/4">
                 <h1 className="text-lg md:text-xl font-bold">Desenvolvido por Guilherme Lunghini</h1>
                 <div className="flex space-x-6">
