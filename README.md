@@ -1,8 +1,18 @@
-# React + Vite
+# Portfólio Guilherme Lunghini
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o portfólio pessoal de Guilherme Lunghini, projetado para mostrar projetos, informações de contato e habilidades em desenvolvimento web. O site é responsivo e utiliza várias bibliotecas para melhorar a experiência do usuário.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home**: Uma visão geral do portfólio com uma introdução e informações sobre o desenvolvedor.
+- **Projetos**: Uma seção dedicada a apresentar os projetos desenvolvidos, incluindo descrições e imagens.
+- **Contato**: Um formulário de contato que permite aos visitantes enviar mensagens. O formulário inclui validação de email para garantir que os dados sejam inseridos corretamente.
+- **Footer**: Links para as redes sociais do desenvolvedor, incluindo GitHub, Instagram e LinkedIn.
+- **Responsividade**: O design é totalmente responsivo, funcionando bem em dispositivos móveis e desktops.
+
+## Bibliotecas Utilizadas
+
+- **React**: Biblioteca JavaScript para construir interfaces de usuário.
+- **React Router DOM**: Para gerenciar rotas e navegação entre páginas.
+- **Tailwind CSS**: Framework CSS para estilos rápidos e responsivos.
+- **React Icons**: Para incluir ícones em diversas partes do site.
