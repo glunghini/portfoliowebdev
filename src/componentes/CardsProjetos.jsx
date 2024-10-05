@@ -11,6 +11,7 @@ export default function Cards({ dados }) {
             </div>
             <div className="mb-4">
               <p className="text-base text-gray-700">{pegaDados.descricao}</p>
+              <a href={pegaDados.link} target="_blank" rel="noopener noreferrer"><p className="text-base text-blue-500">{pegaDados.link}</p></a>
             </div>
             <div className="flex justify-center">
               <img
